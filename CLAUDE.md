@@ -11,9 +11,10 @@ Pure static HTML/CSS - no JavaScript, no build process, no dependencies.
 ## Structure
 
 ```
-www.gus.io/
+/
 ├── index.html                      # Main entry point (~3KB)
 ├── 404.html                        # Error page (~1KB)
+├── CLAUDE.md                       # Documentation for Claude Code
 └── gus-io-web/
     ├── vapor-complete.css          # Full CSS source (~13KB)
     ├── vapor-complete.min.css      # Minified production CSS (~11KB)
@@ -53,7 +54,6 @@ Uses Vapor CSS framework naming conventions:
 
 **Preview the site:**
 ```bash
-cd www.gus.io
 python3 -m http.server 8000
 # Visit http://localhost:8000
 ```
