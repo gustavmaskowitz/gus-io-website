@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(git init:*)",
+      "Bash(.gitignore << 'EOF'\n.DS_Store\n*.log\n.vscode/\n.idea/\nEOF)",
+      "Bash(git add:*)"
+    ]
+  }
+}
