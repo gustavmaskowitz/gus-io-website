@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static personal portfolio/contact page for gus.io (Gustav Maskowitz). Single-page site with terminal-style UI.
+Static personal contact page for gus.io (Gustav Maskowitz). Single-page site with terminal-style UI.
 
 Pure static HTML/CSS - no JavaScript, no build process, no dependencies.
 
